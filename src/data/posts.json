@@ -1,5 +1,32 @@
 [
-  { "id": 1, "user": "ana.dev", "location": "São Paulo, Brasil", "avatar": "/images/avatars/ana.jpg", "image": "/images/posts/post-1.jpg", "alt": "Mesa de trabalho com notebook e café", "likes": 128, "caption": "Construindo uma interface por vez. ✨" },
-  { "id": 2, "user": "viajante", "location": "Rio de Janeiro, Brasil", "avatar": "/images/avatars/viajante.jpg", "image": "/images/posts/post-2.jpg", "alt": "Paisagem de uma praia ao entardecer", "likes": 342, "caption": "Fim de tarde com vista para o mar." },
-  { "id": 3, "user": "cafecomcodigo", "location": "Curitiba, Brasil", "avatar": "/images/avatars/cafe.jpg", "image": "/images/posts/post-3.jpg", "alt": "Xícara de café ao lado de um teclado", "likes": 87, "caption": "Qual é a sua trilha sonora para programar?" }
+  {
+    "id": 1,
+    "user": "ana.dev",
+    "location": "São Paulo, Brasil",
+    "avatar": "/images/avatars/ana.jpg",
+    "image": "/images/posts/post-1.jpg",
+    "alt": "Mesa de trabalho com notebook e café",
+    "likes": 128,
+    "caption": "Construindo uma interface por vez. ✨"
+  },
+  {
+    "id": 2,
+    "user": "viajante",
+    "location": "Rio de Janeiro, Brasil",
+    "avatar": "/images/avatars/viajante.jpg",
+    "image": "/images/posts/post-2.jpg",
+    "alt": "Paisagem de uma praia ao entardecer",
+    "likes": 342,
+    "caption": "Fim de tarde com vista para o mar."
+  },
+  {
+    "id": 3,
+    "user": "cafecomcodigo",
+    "location": "Curitiba, Brasil",
+    "avatar": "/images/avatars/cafe.jpg",
+    "image": "/images/posts/post-3.jpg",
+    "alt": "Xícara de café ao lado de um teclado",
+    "likes": 87,
+    "caption": "Qual é a sua trilha sonora para programar?"
+  }
 ]
