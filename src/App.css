@@ -1,0 +1,24 @@
+.app { min-height: 100vh; padding-bottom: 32px; }
+.feed { width: min(100%, 470px); margin: 32px auto; display: grid; gap: 24px; }
+.post { background: #fff; border: 1px solid #dbdbdb; border-radius: 8px; overflow: hidden; }
+.post__header { padding: 12px; display: flex; align-items: center; gap: 10px; }
+.post__avatar { width: 36px; height: 36px; object-fit: cover; border-radius: 50%; background: #efefef; }
+.post__user { display: grid; gap: 2px; }
+.post__user strong { font-size: 14px; }
+.post__user span { color: #737373; font-size: 12px; }
+.post__more { margin-left: auto; }
+.icon-button { border: 0; background: transparent; padding: 4px; cursor: pointer; font-size: 24px; color: #262626; display: grid; place-items: center; }
+.icon-button:hover { opacity: .55; }
+.post__image { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; background: #efefef; }
+.post__content { padding: 10px 12px 14px; }
+.post__actions { display: flex; gap: 12px; margin-bottom: 10px; }
+.post__actions .icon-button { padding: 0; }
+.post__actions .icon-button:last-child { margin-left: auto; }
+.post__likes { margin: 0 0 8px; font-size: 14px; }
+.post__caption { margin: 0; font-size: 14px; line-height: 1.45; }
+.post__caption strong { margin-right: 5px; }
+.header { height: 60px; border-bottom: 1px solid #dbdbdb; background: #fff; display: flex; align-items: center; justify-content: space-between; padding: 0 max(20px, calc((100vw - 935px) / 2)); position: sticky; top: 0; z-index: 1; }
+.header__logo { font-family: 'Brush Script MT', cursive; font-size: 29px; font-weight: 700; }
+.header__actions { display: flex; gap: 14px; }
+.mobile-nav { display: none; }
+@media (max-width: 600px) { .app { padding-bottom: 58px; } .feed { width: 100%; margin: 0; gap: 10px; } .post { border-inline: 0; border-radius: 0; } .header__actions .icon-button:nth-child(-n + 2) { display: none; } .mobile-nav { display: flex; justify-content: space-around; align-items: center; position: fixed; bottom: 0; left: 0; right: 0; height: 56px; background: #fff; border-top: 1px solid #dbdbdb; z-index: 1; } }
